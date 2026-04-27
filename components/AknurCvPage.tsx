@@ -274,7 +274,9 @@ const AknurCvPage = () => {
           name="description"
           content="Aknur Kalilayeva's professional CV website for statistics, analytics, research, and data science."
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/ak-icon.ico?v=2" />
+        <link rel="icon" href="/ak-icon.svg?v=2" type="image/svg+xml" />
+        <link rel="icon" href="/ak-icon.png?v=2" type="image/png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -287,31 +289,31 @@ const AknurCvPage = () => {
         />
       </Head>
 
-      <main className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[360px_1fr]">
+      <main className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[320px_1fr]">
         <aside className="lg:sticky lg:top-8 lg:self-start">
           <div className="overflow-hidden rounded-[2rem] bg-white shadow-2xl shadow-slate-200/70">
-            <div className="relative bg-gradient-to-br from-fuchsia-500 via-violet-500 to-sky-500 px-8 pt-8 pb-24 text-white">
-              <div className="pointer-events-none absolute -right-12 -top-12 z-0 h-40 w-40 rounded-full bg-white/20" />
-              <div className="pointer-events-none absolute -bottom-10 left-8 z-0 h-28 w-28 rounded-full bg-amber-300/35" />
-              <h1 className="relative z-10 text-4xl font-light leading-tight">
+            <div className="relative bg-gradient-to-br from-fuchsia-500 via-violet-500 to-sky-500 px-7 pt-7 pb-20 text-white">
+              <div className="pointer-events-none absolute -right-12 -top-12 z-0 h-36 w-36 rounded-full bg-white/20" />
+              <div className="pointer-events-none absolute -bottom-10 left-7 z-0 h-24 w-24 rounded-full bg-amber-300/35" />
+              <h1 className="relative z-10 text-3xl font-light leading-tight">
                 Aknur Kalilayeva
               </h1>
-              <p className="relative z-10 mt-4 text-sm font-light leading-6 text-white/90">
+              <p className="relative z-10 mt-3 text-sm font-light leading-6 text-white/90">
                 Statistics (Analytics) graduate student passionate about
                 forecasting, machine learning, and applied statistics.
               </p>
             </div>
 
-            <div className="relative z-20 px-8 pb-8">
-              <div className="-mt-20 flex justify-center">
+            <div className="relative z-20 px-7 pb-7">
+              <div className="-mt-16 flex justify-center">
                 <img
                   alt="Aknur Kalilayeva"
-                  className="h-40 w-40 rounded-full border-[6px] border-white bg-white object-cover object-center shadow-2xl shadow-slate-400/30"
+                  className="h-36 w-36 rounded-full border-[6px] border-white bg-white object-cover object-center shadow-2xl shadow-slate-400/30"
                   src="/images/aknur-kalilayeva.png"
                 />
               </div>
-              <div className="mt-6 text-center">
-                <h2 className="text-xl font-medium text-slate-900">
+              <div className="mt-5 text-center">
+                <h2 className="text-lg font-medium text-slate-900">
                   M.S. Statistics (Analytics)
                 </h2>
                 <p className="mt-1 text-sm font-light text-slate-500">
@@ -319,26 +321,26 @@ const AknurCvPage = () => {
                 </p>
               </div>
 
-              <div className="mt-6 grid gap-3">
+              <div className="mt-5 grid gap-3">
                 {links.map((link) => (
                   <a
-                    className="flex items-center gap-3 rounded-2xl border border-slate-100 bg-slate-50 px-4 py-3 text-sm font-light text-slate-700 transition hover:border-sky-200 hover:bg-sky-50 hover:text-sky-700"
+                    className="flex items-center gap-3 rounded-2xl border border-slate-100 bg-slate-50 px-4 py-2.5 text-sm font-light text-slate-700 transition hover:border-sky-200 hover:bg-sky-50 hover:text-sky-700"
                     href={link.href}
                     key={link.label}
                     rel="noreferrer"
                     target={link.href.startsWith('http') ? '_blank' : undefined}
                   >
-                    <img alt="" className="h-6 w-6" src={link.icon} />
+                    <img alt="" className="h-5 w-5" src={link.icon} />
                     {link.label}
                   </a>
                 ))}
               </div>
 
-              <div className="mt-6 rounded-3xl bg-gradient-to-br from-slate-900 to-slate-700 p-5 text-white">
+              <div className="mt-5 rounded-3xl bg-gradient-to-br from-slate-900 to-slate-700 p-4 text-white">
                 <p className="text-xs font-medium uppercase tracking-[0.25em] text-sky-200">
                   Focus Areas
                 </p>
-                <div className="mt-4 flex flex-wrap gap-2">
+                <div className="mt-3 flex flex-wrap gap-2">
                   {[
                     'Statistical Modeling',
                     'Forecasting',
@@ -347,7 +349,7 @@ const AknurCvPage = () => {
                     'BI Dashboards',
                   ].map((focus) => (
                     <span
-                      className="rounded-full bg-white/10 px-3 py-1 text-xs font-light text-white"
+                      className="rounded-full bg-white/10 px-2.5 py-1 text-xs font-light text-white"
                       key={focus}
                     >
                       {focus}
@@ -368,20 +370,52 @@ const AknurCvPage = () => {
               Data, models, and decisions.
             </h2>
             <p className="mt-5 max-w-3xl text-base font-light leading-8 text-slate-600">
-              My name is Aknur, and I am a Statistics (Analytics) graduate
-              student passionate about turning data into clear models and
-              informed decisions. I am currently pursuing an M.S. at the
-              University of Illinois Urbana-Champaign, with 3+ years of
-              experience building forecasting and machine learning models across
-              actuarial and credit-risk problems.
+              My name is Aknur, and I am a{' '}
+              <a
+                className="font-medium text-sky-700 transition hover:text-fuchsia-600"
+                href="https://stat.illinois.edu/academics/graduate-programs/ms-statistics-analytics"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Statistics (Analytics)
+              </a>{' '}
+              graduate student passionate about turning data into{' '}
+              <strong className="font-medium text-slate-800">
+                clear models
+              </strong>{' '}
+              and informed decisions. I am currently pursuing an M.S. at the{' '}
+              <a
+                className="font-medium text-sky-700 transition hover:text-fuchsia-600"
+                href="https://illinois.edu/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                University of Illinois Urbana-Champaign
+              </a>
+              , with 3+ years of experience building{' '}
+              <strong className="font-medium text-slate-800">
+                forecasting and machine learning models
+              </strong>{' '}
+              across actuarial and credit-risk problems.
             </p>
             <p className="mt-4 max-w-3xl text-base font-light leading-8 text-slate-600">
               I have worked across research, analytics, and technical support:
-              developing forecasting models, building credit-risk forecasting
+              developing forecasting models, building{' '}
+              <strong className="font-medium text-slate-800">
+                credit-risk forecasting
+              </strong>{' '}
               and classification frameworks, and supporting faculty and students
               through technical troubleshooting. I am especially interested in
-              work where applied statistics can inform planning, policy, or
-              business decisions.
+              work where{' '}
+              <a
+                className="font-medium text-sky-700 transition hover:text-fuchsia-600"
+                href="https://en.wikipedia.org/wiki/Applied_statistics"
+                rel="noreferrer"
+                target="_blank"
+              >
+                applied statistics
+              </a>{' '}
+              can inform planning, policy, or business decisions.
             </p>
             <div className="mt-6 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
               {highlights.map((highlight) => (
