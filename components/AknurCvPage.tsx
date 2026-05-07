@@ -43,11 +43,6 @@ const links: Link[] = [
     href: 'https://github.com/aknurrk',
     icon: 'https://img.icons8.com/fluency/48/000000/github.png',
   },
-  {
-    label: 'CV PDF',
-    href: '/PDF/Aknur_Kalilayeva_CV.pdf',
-    icon: 'https://img.icons8.com/color/48/000000/pdf.png',
-  },
 ]
 
 const education: TimelineItem[] = [
