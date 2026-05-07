@@ -149,13 +149,13 @@ const publications: Publication[] = [
     title:
       'Investigation of Stereolithography Additively Manufactured Components for Deviations in Dimensional and Geometrical Features',
     authors:
-      'Aknur Kalilayeva, D. Zhumashev, D. Wei, A. Perveen, and D. Talamona',
+      'A.K., D. Zhumashev, D. Wei, A. Perveen, and D. Talamona',
     venue: 'Polymers, 16(23), 3311, 2024',
   },
   {
     title:
       'Nonlinear Implicit Regression Fit of the Mortality Data by the Three Parameter Generalized Logistic Model',
-    authors: 'Aknur Kalilayeva',
+    authors: 'A.K.',
     venue:
       'Capstone project, Nazarbayev University, 2024. Supervisors: Prof. Dongming Wei and Prof. Kerem Ugurlu',
   },
