@@ -58,7 +58,7 @@ const education: TimelineItem[] = [
     location: 'Urbana, IL, USA',
     meta: ['GPA: 3.7 / 4.0'],
     details: [
-      'Coursework: Statistical Modeling, Statistical Learning, Regression Analysis',
+      'Coursework: Statistical Modeling, Statistical Learning, Regression Analysis, Applied Bayesian Analysis, Time Series Analysis',
     ],
   },
   {
