@@ -29,14 +29,10 @@ type SkillGroup = {
 const links: Link[] = [
   {
     label: 'Email',
-    href: 'mailto:aknurk2@illinois.edu',
+    href: 'mailto:aknurkailiaeva@gmail.com',
     icon: 'https://img.icons8.com/fluency/48/000000/new-post.png',
   },
-  {
-    label: 'Phone',
-    href: 'tel:+12176378739',
-    icon: 'https://img.icons8.com/fluency/48/000000/phone.png',
-  },
+  
   {
     label: 'LinkedIn',
     href: 'https://www.linkedin.com/in/aknurk/',
@@ -81,10 +77,10 @@ const experience: TimelineItem[] = [
   {
     period: 'Aug 2025 - Present',
     title: 'Lead Technology Assistant',
-    organization: 'ATLAS, UIUC',
+    organization: 'ATLAS',
     location: 'Illinois, USA',
     details: [
-      'Provide technical support to faculty members and students, resolving 5-10 tickets per day through clear verbal and written communication.',
+      'Provided technical support to faculty members and students, resolving 5-10 tickets per day through clear verbal and written communication.',
     ],
   },
   {
@@ -100,7 +96,7 @@ const experience: TimelineItem[] = [
   {
     period: 'Jun 2023 - Jul 2023',
     title: 'Data Analyst',
-    organization: 'Yessenov Data Lab',
+    organization: 'Data Lab',
     location: 'Remote',
     details: [
       'Built a quarterly regression forecasting framework linking portfolio default rates to macroeconomic factors; unified heterogeneous time series, treated outliers, and achieved RMSE of 0.020-0.023.',
@@ -269,10 +265,10 @@ const AknurCvPage = () => {
   return (
     <div className="min-h-screen bg-[radial-gradient(circle_at_top_left,_#fce7f3,_transparent_32%),radial-gradient(circle_at_top_right,_#dbeafe,_transparent_30%),linear-gradient(135deg,_#fff7ed_0%,_#ffffff_45%,_#eef2ff_100%)] px-4 py-8 text-slate-900">
       <Head>
-        <title>Aknur Kalilayeva | Statistics and Data Science</title>
+        <title>Aknur | Statistics and Data Science</title>
         <meta
           name="description"
-          content="Aknur Kalilayeva's professional CV website for statistics, analytics, research, and data science."
+          content="Aknur's professional CV website for statistics, analytics, research, and data science."
         />
         <link rel="shortcut icon" href="/ak-icon.ico?v=2" />
         <link rel="icon" href="/ak-icon.svg?v=2" type="image/svg+xml" />
@@ -296,7 +292,7 @@ const AknurCvPage = () => {
               <div className="pointer-events-none absolute -right-12 -top-12 z-0 h-36 w-36 rounded-full bg-white/20" />
               <div className="pointer-events-none absolute -bottom-10 left-7 z-0 h-24 w-24 rounded-full bg-amber-300/35" />
               <h1 className="relative z-10 text-3xl font-light leading-tight">
-                Aknur Kalilayeva
+                Aknur
               </h1>
               <p className="relative z-10 mt-3 text-sm font-light leading-6 text-white/90">
                 Statistics (Analytics) graduate student passionate about
@@ -307,7 +303,7 @@ const AknurCvPage = () => {
             <div className="relative z-20 px-7 pb-7">
               <div className="-mt-16 flex justify-center">
                 <img
-                  alt="Aknur Kalilayeva"
+                  alt="Aknur"
                   className="h-36 w-36 rounded-full border-[6px] border-white bg-white object-cover object-center shadow-2xl shadow-slate-400/30"
                   src="/images/aknur-kalilayeva.png"
                 />
