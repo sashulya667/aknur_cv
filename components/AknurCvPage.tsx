@@ -72,7 +72,7 @@ const experience: TimelineItem[] = [
   {
     period: 'Aug 2025 - Present',
     title: 'Lead Technology Assistant',
-    organization: 'ATLAS',
+    organization: 'UIUC',
     location: 'Illinois, USA',
     details: [
       'Provided technical support to faculty members and students, resolving 5-10 tickets per day through clear verbal and written communication.',
