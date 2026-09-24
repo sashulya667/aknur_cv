@@ -51,7 +51,7 @@ const education: TimelineItem[] = [
     title: 'Master of Science in Statistics (Analytics)',
     organization: 'University of Illinois at Urbana-Champaign',
     location: 'Urbana, IL, USA',
-    meta: ['GPA: 3.7 / 4.0'],
+    meta: ['GPA: 3.8 / 4.0'],
     details: [
       'Coursework: Statistical Modeling, Statistical Learning, Regression Analysis, Applied Bayesian Analysis, Time Series Analysis',
     ],
@@ -206,7 +206,7 @@ const awards = [
 ]
 
 const highlights = [
-  { value: '3.7/4.0', label: 'UIUC Statistics GPA' },
+  { value: '3.8/4.0', label: 'UIUC Statistics GPA' },
   { value: 'Top 2/93', label: 'Mathematics cohort' },
   { value: '3+ Years', label: 'Forecasting and ML' },
   { value: '50+', label: 'SIAM events promoted' },
@@ -300,7 +300,7 @@ const AknurCvPage = () => {
                 <img
                   alt="Aknur"
                   className="h-36 w-36 rounded-full border-[6px] border-white bg-white object-cover object-center shadow-2xl shadow-slate-400/30"
-                  src="/images/aknur-kalilayeva.png"
+                  src="/images/aknur-kalilayeva.jpg"
                 />
               </div>
               <div className="mt-5 text-center">
