@@ -51,7 +51,7 @@ const education: TimelineItem[] = [
     title: 'Master of Science in Statistics (Analytics)',
     organization: 'University of Illinois at Urbana-Champaign',
     location: 'Urbana, IL, USA',
-    meta: ['GPA: 3.8 / 4.0'],
+    meta: ['GPA: 3.83 / 4.0'],
     details: [
       'Coursework: Statistical Modeling, Statistical Learning, Regression Analysis, Applied Bayesian Analysis, Time Series Analysis',
     ],
@@ -206,7 +206,7 @@ const awards = [
 ]
 
 const highlights = [
-  { value: '3.8/4.0', label: 'UIUC Statistics GPA' },
+  { value: '3.83/4.0', label: 'UIUC Statistics GPA' },
   { value: 'Top 2/93', label: 'Mathematics cohort' },
   { value: '3+ Years', label: 'Forecasting and ML' },
   { value: '50+', label: 'SIAM events promoted' },
